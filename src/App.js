@@ -6,9 +6,11 @@ import Projects from './Components/Projects';
 import Experiance from './Components/Experiance';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
+import { Toaster } from 'react-hot-toast';
 
 const App = () => {
   return (
+    <>
     <div>
       <Navbar/>
       <HeroSection/>
@@ -18,6 +20,8 @@ const App = () => {
       <Contact/>
       <Footer/>
     </div>
+    <Toaster/>
+    </>
   )
 }
 

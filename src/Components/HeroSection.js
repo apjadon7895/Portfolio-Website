@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaLinkedinIn, FaGithub, FaTelegramPlane } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 import { SiJavascript, SiReact, SiNodedotjs, SiExpress } from 'react-icons/si';
 import pic from "../Assets/amit.jpg"; // Ensure the path is correct
 import ReactTypingEffect from 'react-typing-effect';
@@ -13,7 +13,7 @@ const HeroSection = () => {
         <h1 className="text-4xl font-bold">
           Hello, I'm a <ReactTypingEffect
             className='pl-3 text-red-600'
-            text={['web development', 'salesforce developer', 'Android developer']}
+            text={['web Developer', 'Full Stack Developer', 'React Developer']}
             speed={100}
             eraseSpeed={120}
             eraseDelay={1000}
@@ -21,30 +21,31 @@ const HeroSection = () => {
           />
         </h1>
         <p className="text-gray-500 text-justify">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, recusandae
-          consequatur. Accusamus sint libero eligendi laborum fuga repudiandae? Asperiores
-          tempore eos animi dolores corrupti! Sint quos, mollitia architecto aliquam nesciunt,
-          optio cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+        Aspiring Full-Stack Developer with experience in creating and managing web applications. Proficient in React,
+        Node.js, PHP, and MongoDB, with knowledge of RESTful APIs and frontend/backend integration. Seeking a
+        challenging role to contribute and grow my skills.
         </p>
 
-        {/* Social Media Links */}
+       
         {/* Social Media Links */}
 <div className='flex justify-between'>
 <div>
 <h3 className="text-lg font-semibold mb-2">Availble on</h3> 
 <div className="flex space-x-6 ">
-<a href="https://facebook.com" className="text-black hover:text-gray-700">
+<a href="https://www.facebook.com/7895Amit.singh" className="text-black hover:text-gray-700">
 <FaFacebookF size={24} />
 </a>
-<a href="https://linkedin.com" className="text-black hover:text-gray-700">
+<a href="https://www.linkedin.com/in/apJadon7895" className="text-black hover:text-gray-700">
 <FaLinkedinIn size={24} />
 </a>
-<a href="https://github.com" className="text-black hover:text-gray-700">
+<a href="https://github.com/apjadon7895" className="text-black hover:text-gray-700">
 <FaGithub size={24} />
 </a>
-<a href="https://telegram.org" className="text-black hover:text-gray-700">
-<FaTelegramPlane size={24} />
+<a href="https://www.instagram.com/singh_ap_7895?igsh=dno0bDZ4aXJycmQ5" className="text-black hover:text-gray-700">
+  <FaInstagram size={24} />
 </a>
+
+
 </div>
 </div>
 

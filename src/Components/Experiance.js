@@ -14,7 +14,7 @@ const Experiance = () => {
         Experience
       </h2>
       <p className="text-lg text-center mb-12">
-        I've more than 2 years of experience in the following technologies.
+        I've more than 1 years of experience in the following technologies.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="bg-white rounded-lg shadow-md p-6 text-center">

@@ -12,9 +12,11 @@ const Navbar = () => {
         <img src={pic} alt='amit' className='w-12 h-12 rounded-full' />
         <div>
           <h1 className='text-xl font-bold'>
-            Ami<span className='text-green-500'>t</span>
+            Ami<span className='text-green-500'>t </span>
+            Prata<span className='text-green-500 ..'>p </span>
+            Sing<span className='text-green-500 ..'>h </span>
           </h1>
-          <h2 className='text-sm text-gray-500'>Web Developer</h2>
+          <h2 className='text-sm text-gray-500'>Software Engineer</h2>
         </div>
       </div>
       
